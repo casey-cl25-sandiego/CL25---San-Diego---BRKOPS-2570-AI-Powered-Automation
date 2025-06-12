@@ -21,12 +21,6 @@ Catalyst Center CLI Executor is a Flutter application that allows users to authe
 - [`lib/services/api_service.dart`](lib/services/api_service.dart):  
   Handles API authentication, device retrieval, issue retrieval, and command execution (not shown here, but referenced in the main app).
 
-- [`test/widget_test.dart`](test/widget_test.dart):  
-  Contains a basic Flutter widget test to verify the counter increments as a smoke test.
-
-- `android/`, `ios/`, `linux/`, `macos/`, `web/`, `windows/`:  
-  Platform-specific folders for building and running the Flutter app on different operating systems.
-
 - `pubspec.yaml`:  
   Dart and Flutter dependencies and project metadata.
 
@@ -40,10 +34,15 @@ Catalyst Center CLI Executor is a Flutter application that allows users to authe
 ## Getting Started
 
 1. Install [Flutter](https://flutter.dev/docs/get-started/install).
-2. Clone this repository.
-3. Run `flutter pub get` to install dependencies.
-4. Run the app with `flutter run`.
+2. Create a flutter project.
+3. Run the pubspec.yaml prompt (top of prompt file) against AI and copy paste the output into the pubspec.yaml file
+4. Run `flutter pub get` to install dependencies.
+5. Create the directory structure under /lib for the dart files included within this repository
+6. Run the rest of the prompt and copy the output into the files
+7. You will need to setup your own secure credential management system in order to authenticate with your own Catalyst Center appliance
+8. Run the app with `flutter run`.
+9. This prompt and code provided is for demonstration purposes only. Do not use this in a production environment. By using this code in a production environment, you are accepting responsibility for any potential outcomes.
 
 ## License
 
-This project is intended for demonstration and internal use. Please see `LICENSE` for details.
+This project is intended for demonstration purposes only and should not be used in a production environment. Please see `LICENSE` for details.
